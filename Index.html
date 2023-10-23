@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://animaproject.s3.amazonaws.com/home/favicon.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="/Style.css" />
+    <link rel="stylesheet" type="text/css" href="/responsiveStyled.css" />
+    <link rel="stylesheet" href="/navbar.css" />
+    <script
+      src="https://kit.fontawesome.com/2bd80d7465.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Uniqueleverage</title>
+  </head>
+  <body>
+    <div class="HeaderSec">
+      <div class="NavbarContainer">
+        <div class="NavbarBox">
+          <div class="Navlogo">
+            <a href="/">
+              <img src="./img//logo-png@2x.png" alt="" />
+            </a>
+          </div>
+          <div class="NavLinks">
+            <ul>
+              <li>
+                What's Included
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+                <ul>
+                  <div class="ExternalDiv">
+                    <li>
+                      <img
+                        className="elImage"
+                        src=".//img/svg12.svg"
+                        alt="website icon #2 #2 #2"
+                        width="24"
+                      />
+                      <div class="DeepNav">
+                        <span>Craigslist</span>
+                        <p>
+                          Automation. $5 pass through per <br />
+                          post, no mark up.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img
+                        className="elImage"
+                        src="/img/svg11.svg"
+                        alt="Online Courses icon #2 #2 #2"
+                        width="24"
+                      />
+                      <div class="DeepNav">
+                        <span>Micro-Campaigns</span>
+                        <p>
+                          Small ads for seasonal offers, <br />
+                          holiday special and more...
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img
+                        className="elImage"
+                        src="/img/svg10.svg"
+                        alt="E-Commerce icon #2 #2 #2"
+                        width="24"
+                      />
+                      <div class="DeepNav">
+                        <span>Real-Time Inventory</span>
+                        <p>
+                          Always display the correct data <br />
+                          on any platform.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img
+                        className="elImage"
+                        src="/img/svg9.svg"
+                        alt="crm icon #2 #2 #2"
+                        width="24"
+                      />
+                      <div class="DeepNav">
+                        <span>Advanced Targeting</span>
+                        <p>
+                          AutoTraders, Cars.com, etc.. <br />
+                          Follow shoppers on Facebook <br />
+                          and Instagram!
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img
+                        className="elImage"
+                        src="/img/svg8.svg"
+                        alt="landing page icon #2 #2 #2"
+                        width="24"
+                      />
+                      <div class="DeepNav">
+                        <span>VIN Specific Leads</span>
+                        <p>
+                          Collect all the data from each <br />
+                          lead for better follow up.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img
+                        className="elImage"
+                        src="/img/svg7.svg"
+                        alt="membership sites icon #2 #2 #2"
+                        width="24"
+                      />
+                      <div class="DeepNav">
+                        <span>Integrations</span>
+                        <p>
+                          Sync lead flow directly to any <br />
+                          CRM or Email.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <img
+                        className="elImage"
+                        src="/img/svg6.svg"
+                        alt="Global Products icon #2 #2 #2"
+                        width="24"
+                      />
+                      <div class="DeepNav">
+                        <span>Inventory Manager</span>
+                        <p>
+                          Take full control of your inventory <br />
+                          data today, send to any third party.
+                        </p>
+                      </div>
+                    </li>
+                  </div>
+                </ul>
+              </li>
+              <li>
+                <a href="https://uniqueleverage.com/pricing" id="pricing">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <div class="Navbtn">
+                  <a href="https://calendly.com/uniqueleverage/scheduler/">
+                    Talk to Sales
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="menutoggle"><i class="fa-solid fa-bars"></i></div>
+          <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+          <script>
+            $(document).ready(function () {
+              $(".menutoggle").click(function () {
+                $(".ExtentedSidebar").toggleClass("active");
+              });
+            });
+            // const toggle = document.getElementsByClassName('menutoggle')
+
+            // toggle.onClick = function() {
+            //   toggle.classList.toggle('active')
+            // }
+          </script>
+        </div>
+      </div>
+      <div class="menubar">
+        <div class="ExtentedSidebar">
+          <div id="closebtn"><i class="fa-solid fa-xmark"></i></div>
+          <script>
+            // $(document).ready(function () {
+            //   $(".closebtn").click(function () {
+            //     $(".Main").toggleClass("active");
+            //   });
+            // });
+            $(document).ready(function () {
+              $("#closebtn").click(function () {
+                $(".ExtentedSidebar").toggleClass("active");
+              });
+            });
+          </script>
+          <h2>What’s Included</h2>
+          <ul>
+            <li>
+              <a href="#">
+                <span>Facebook Marketplace</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Craigslist</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Realtime-Time Inventory</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Advanced Targeting</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>VIN Specific Leads</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Intregrations</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Inventory Manager</span>
+              </a>
+            </li>
+          </ul>
+          <h2>
+            <a href="https://uniqueleverage.com/pricing">Pricing</a>
+          </h2>
+          <div class="Navbtn">
+            <a href="https://calendly.com/uniqueleverage/scheduler/">
+              Talk to Sales
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HERO SECTON -->
+
+    <div class="heroSection">
+      <div class="heroBox">
+        <p class="automatic-vehicle-posting-for-dealers">
+          Automatic Vehicle Posting for Dealers
+        </p>
+        <h1 class="heading-1-meet-unique-leverage">Meet UniqueLeverage.</h1>
+        <p class="getting-people-to-yo">
+          Getting People To Your Vehicles And Turning Them Into Potential
+          Customers Is What We Do Best
+        </p>
+        <div class="btndiv">
+          <button class="book-your-demo-today">
+            Book Your Demo Today <i class="fa-solid fa-angles-right"></i>
+          </button>
+          <span class="no-contracts-cancel-anytime"
+            >No Contracts • Cancel Anytime</span
+          >
+        </div>
+
+        <div class="Herolist">
+          <div>
+            <p>
+              <i class="fa-solid fa-circle-check"></i>Zero Computer Skills
+              Needed
+            </p>
+          </div>
+          <div>
+            <p>
+              <i class="fa-solid fa-circle-check"></i>Perfect For Any Size Team
+            </p>
+          </div>
+          <div>
+            <p>
+              <i class="fa-solid fa-circle-check"></i>Market, Sell, And Deliver
+              Like A Pro
+            </p>
+          </div>
+        </div>
+        <div class="videoCont">
+          <h2 class="Connecting-With-Your">
+            <i class="fa-regular fa-circle-play"></i>
+            Connecting With Your Systems For Optimized Results!
+          </h2>
+          <div class="videodiv">
+            <div class="video">
+              <script
+                src="https://fast.wistia.com/embed/medias/f3ypcy119b.jsonp"
+                async
+              ></script>
+              <script
+                src="https://fast.wistia.com/assets/external/E-v1.js"
+                async
+              ></script>
+              <div
+                class="wistia_responsive_padding"
+                style="padding: 56.25% 0 0 0; position: relative"
+              >
+                <div
+                  class="wistia_responsive_wrapper"
+                  style="
+                    height: 100%;
+                    left: 0;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                  "
+                >
+                  <div
+                    class="wistia_embed wistia_async_f3ypcy119b seo=false videoFoam=true"
+                    style="height: 100%; position: relative; width: 100%"
+                  >
+                    <div
+                      class="wistia_swatch"
+                      style="
+                        height: 100%;
+                        left: 0;
+                        opacity: 0;
+                        overflow: hidden;
+                        position: absolute;
+                        top: 0;
+                        transition: opacity 200ms;
+                        width: 100%;
+                      "
+                    >
+                      <img
+                        src="https://fast.wistia.com/embed/medias/f3ypcy119b/swatch"
+                        style="
+                          filter: blur(5px);
+                          height: 100%;
+                          object-fit: contain;
+                          width: 100%;
+                        "
+                        alt=""
+                        aria-hidden="true"
+                        onload="this.parentNode.style.opacity=1;"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="videofooter">
+              <div>
+                <img src="./img/div-elimagewrapper.svg" alt"" />
+                <p>
+                  Allow <br />
+                  Permission
+                </p>
+              </div>
+              <div>
+                <img src=" ./img/div-elimagewrapper-1.svg " alt"" />
+                <p>
+                  Plug & Play <br />
+                  Software
+                </p>
+              </div>
+              <div>
+                <img src="./img/div-elimagewrapper-2.svg" alt"" />
+                <p>
+                  Inventory <br />
+                  Auto-Poster
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEALERSHIPS SECTON -->
+
+    <div class="Dealershipscont">
+      <div class="DealershipBox">
+        <div class="Dealership-head">
+          <div class="DealershipBtnDiv">
+            <button class="DealershipBtn">
+              Book Your Demo Today <i class="fa-solid fa-angles-right"></i>
+            </button>
+            <span>No Contracts • Cancel Anytime</span>
+          </div>
+          <img src="./img//img---5-stars.svg" alt="" />
+          <h2>
+            World Class Dealerships Love <br />
+            Using UniqueLeverage
+          </h2>
+          <span>See For Yourself…</span>
+        </div>
+        <div class="DealershipCardCont">
+          <div class="DealershipCard">
+            <img src="./img//space-png@2x.png" alt="" />
+            <h3>
+              2022 S Robertson Blvd, <br />
+              Los Angeles, California
+            </h3>
+          </div>
+          <div class="DealershipCard">
+            <img src="./img/autolounge-png@2x.png" alt="" />
+            <h3>
+              540 US-1 • Edison, <br />
+              New Jersey
+            </h3>
+          </div>
+          <div class="DealershipCard">
+            <img src="./img/georges-png@2x.png" alt="" />
+            <h3>
+              23971 N. Telegraph Rd. <br />
+              Brownstown, Michigan
+            </h3>
+          </div>
+          <div class="DealershipBtnDiv">
+            <button class="DealershipBtn">
+              Book Your Demo Today <i class="fa-solid fa-angles-right"></i>
+            </button>
+            <span>No Contracts • Cancel Anytime</span>
+          </div>
+        </div>
+        <div class="DealershipReviewDiv">
+          <img
+            src="./img//f4c50945ca896cab62e643bb8906e9a5-png@2x.png"
+            alt=""
+          />
+          <p>
+            UniqueLeverage Is Rated Excellent <br />
+            (4.7 out of 5 based on 1,835 reviews)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEALERSHIPS SECTON -->
+
+    <div class="UniqueCont">
+      <div class="UniqueBox">
+        <div class="Why">
+          <div>
+            <h3>Why Unique Leverage?</h3>
+            <p>
+              <span>Let’s face it</span> — popular listing providers and local
+              classified ads like Marketplace or Craigslist is where customers
+              find dealerships.
+            </p>
+            <span>That’s where we come in.</span>
+            <p>
+              Our software is like a “digital bridge” that connects vehicles
+              from your website to other platforms with the click of a button!
+            </p>
+          </div>
+          <img class="WhyImage" src="./img//craig-fb-png.png" alt="" />
+        </div>
+        <div class="facebookadDiv">
+          <h2>
+            FACEBOOK <br />
+            VIN LEAD ADS
+          </h2>
+          <p>
+            Sync your on-the-ground inventory Facebook and Instagram ads
+            <br />
+            delivered to In-Market Shoppers in real-time.
+          </p>
+          <div class="facebookad">
+            <script
+              src="https://fast.wistia.com/embed/medias/bjh2n2x74t.jsonp"
+              async
+            ></script>
+            <script
+              src="https://fast.wistia.com/assets/external/E-v1.js"
+              async
+            ></script>
+            <div
+              class="wistia_responsive_padding"
+              style="padding: 177.71% 0 0 0; position: relative"
+            >
+              <div
+                class="wistia_responsive_wrapper"
+                style="
+                  height: 100%;
+                  left: 0;
+                  position: absolute;
+                  top: 0;
+                  width: 100%;
+                "
+              >
+                <div
+                  class="wistia_embed wistia_async_bjh2n2x74t seo=false videoFoam=true"
+                  style="
+                    height: 100%;
+                    position: relative;
+                    width: 100%;
+                    background-color: none;
+                  "
+                >
+                  &nbsp;
+                </div>
+              </div>
+            </div>
+          </div>
+          <strong> Do You Want To See Real Campaigns? </strong>
+          <h3>
+            Real Time Inventory <br />
+            Pricing & Reporting!
+          </h3>
+          <div class="DealershipBtnDiv">
+            <button class="DealershipBtn">
+              Book Your Demo Today <i class="fa-solid fa-angles-right"></i>
+            </button>
+            <span>No Contracts • Cancel Anytime</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Automation SECTON -->
+
+    <div class="AutomationCont">
+      <div class="AutomationBox">
+        <div class="automationMain">
+          <h2 class="automationMainHeading1">
+            Automation <br />
+            For Salespeople
+          </h2>
+          <div class="automationImgDiv">
+            <img class="automationImg" src="./img/automation.png" alt="" />
+          </div>
+          <div class="automationMainContent">
+            <h2 class="automationMainHeading2">Automation For Salespeople</h2>
+            <p>
+              <span>We are pioneers</span> in the automotive industry and the
+              first ever platform designed to
+              <strong
+                >post vehicles directly on the Facebook Marketplace for sales
+                people.</strong
+              >
+            </p>
+            <p>
+              When we think about purchasing a vehicle in todays market and
+              economy, chances are
+              <strong
+                >— you'll check out Craigslist & Facebook Marketplace for the
+                best deals!</strong
+              >
+            </p>
+            <p>
+              And guess what? ANY dealership can afford this, anually. (Because
+              yes, it really does work!)
+            </p>
+          </div>
+        </div>
+        <div class="DynamicMain">
+          <div class="DynamicImg">
+            <img src="./img/fb.png" alt="" />
+            <div class="DealershipBtnDiv">
+              <button class="DealershipBtn">
+                Book Your Demo Today <i class="fa-solid fa-angles-right"></i>
+              </button>
+              <span>No Contracts • Cancel Anytime</span>
+            </div>
+            <a class="DealershipLearnMore" href=""
+              >Learn More About Pricing →</a
+            >
+          </div>
+          <div class="DynamicTxt">
+            <span>UniqueLeverage Is… </span>
+            <h2>Dynamic</h2>
+            <p>
+              Posting vehicles for sale is great. But real-time data is critical
+              if you want real business growth.
+            </p>
+            <h3>With UniqueLeverage, you can...</h3>
+            <ul>
+              <li>
+                <span><i class="fa-solid fa-angle-right"></i></span> Dominate
+                your local market with micro ad campaigns
+              </li>
+              <li>
+                <span><i class="fa-solid fa-angle-right"></i> </span>Generate
+                leads for multiple sales people individaully
+              </li>
+              <li>
+                <span><i class="fa-solid fa-angle-right"></i> </span> ​Talk to
+                more people looking to purchase a vehicle (...for pennies on the
+                dollar!)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BRANDS SECTON -->
+
+    <div class="BrandsMainCont">
+      <div class="BrandsBox">
+        <h2>Trusted By Top Brands</h2>
+        <div class="BrandContent">
+          <div>
+            <img src="./img/frazer.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/homenet.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/dealercenter.png" alt="" />
+          </div>
+          <div>
+            <img src="./img/carsforsale.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ SECTON -->
+
+    <div class="faqCont">
+      <div class="faqBox">
+        <h2>Frequently Asked Questions</h2>
+        <div class="FAQ">
+          <div
+            class="accordion accordion-flush"
+            id="accordionPanelsStayOpenExample"
+          >
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  Do I have to pay for updates?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingOne"
+                data-bs-parent="#accordionPanelsStayOpenExample"
+              >
+                <div class="accordion-body">
+                  No! We give constant updates to our software, add new features
+                  and you get it all for FREE! Because UniqueLeverage is on the
+                  cloud, when we make an update or add new features, it's all
+                  yours!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  How long are your contracts?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  There are NO long term contracts or commitments. You can use
+                  UniqueLeverage month to month, and cancel at any time you'd
+                  like!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  If I have questions, is there someone I can talk to?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Yes! We have a first class support team who can answer your
+                  questions 24 hours a day, 7 days a week! Just email our
+                  support help@uniqueleverage.com or call us directly (313)
+                  217-2212
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFourth">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFourth"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFourth"
+                >
+                  If I cancel my UniqueLeverage account, will I lose my data?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFourth"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFourth"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  As with most "software-as-a-service" platforms, when you
+                  cancel your account, your data will become inaccessible.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  Can I connect my DMS?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body answer">
+                  Yes, we partner and connect with some of the largest companies
+                  in the automotive space! Our systems connect with your current
+                  providers!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  Do I have to install anything?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingSix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Yes, our Auto-Poster tool requires a Windows computer. Just
+                  login and we'll take care of the rest!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSeven"
+                >
+                  If I don't like UniqueLeverage, how do I cancel?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseSeven"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingSeven"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Simply call or send an email, click on your account and
+                  request to cancel the account.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTON -->
+
+    <div class="footerMain">
+      <div class="footerBox">
+        <div>
+          <img class="footerImg" src="/img/logo-png@2x.png" alt="" />
+          <ul>
+            <li>UniqueLeverage.com</li>
+            <li>All Rights Reserved © 2017-2023.</li>
+            <li>Located in Detroit, Michigan 48127.</li>
+            <li><a href=""></a>Join The Zoom Meeting →</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

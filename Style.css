@@ -1,0 +1,847 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:900,400,600,300,800,500,700|Caveat:700");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/64e8d4ed7704051b825b4deb.64e8d4ee7704051b825b4dee.OQ1DQCV.hcp.png");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* background-color: #f4f9fc; */
+}
+
+
+
+/* <!-- HERO SECTON --> */
+
+.heroSection {
+  width: 100%;
+  height: auto;
+  background-color: rebeccapurple;
+  background: url(./img/div-section-home-hero.svg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4rem;
+  margin-top: -1px;
+}
+.heroBox {
+  width: 90%;
+  height: 100%;
+  /* background-color: royalblue;   */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  padding-top: 3rem;
+}
+.heroBox .automatic-vehicle-posting-for-dealers {
+  font-family: Caveat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+}
+.heroBox .heading-1-meet-unique-leverage {
+  font-family: Inter;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 106px;
+  letter-spacing: -2.4000000953674316px;
+  text-align: center;
+  color: #1d2e3b;
+}
+.heroBox .getting-people-to-yo {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 140%;
+  /* font-size: 2rem; */
+  color: rgb(29, 46, 59);
+}
+.heroBox .btndiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+.heroBox .book-your-demo-today {
+  background-color: #1cbcff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  column-gap: 10px;
+}
+.heroBox .book-your-demo-today i{
+    font-size: 1rem;
+}
+.heroBox .book-your-demo-today:hover {
+  background-color: #11adef;
+}
+
+.heroBox .no-contracts-cancel-anytime {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #60606b;
+}
+.Herolist {
+  /* background-color: rebeccapurple; */
+  width: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 30px;
+}
+.Herolist div p {
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+}
+.Herolist div p .fa-solid {
+  color: #1cbcff;
+  margin-right: 5px;
+}
+.videoCont {
+  width: 90%;
+  height: auto;
+  /* background-color: red; */
+  box-shadow: 0px 0px 20px 0px rgba(0, 28, 56, 0.2);
+  margin-top: 1.5rem;
+}
+.Connecting-With-Your {
+  width: 100%;
+  background-color: #1cbcff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  /* padding: 0px, 116px, 0px, 16px; */
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.videodiv {
+  width: 100%;
+  height: auto;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+.video {
+  width: 95%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.videofooter {
+  width: 95%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+.videofooter div {
+  width: 20%;
+  /* background-color: wheat; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 20px;
+}
+.videofooter div p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+}
+
+/* <!-- Dealerships  SECTON --> */
+
+.Dealershipscont {
+  width: 100%;
+  height: auto;
+  background-color: rebeccapurple;
+  background: linear-gradient(
+    90deg,
+    rgb(244, 249, 252) 49%,
+    rgb(224, 236, 251) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.DealershipBox {
+  width: 80%;
+  height: 100%;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  row-gap: 3rem;
+}
+.Dealership-head {
+  width: 100%;
+  /* background-color: tan; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 10px;
+}
+.Dealership-head h2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.800000011920929px;
+  text-align: center;
+  color: #1d2e3b;
+}
+.Dealership-head span {
+  font-family: Caveat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+}
+.DealershipCardCont {
+  width: 100%;
+  /* background-color: teal; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 2rem;
+}
+.DealershipCard {
+  /* width: 351.8px; */
+  height: 240px;
+  width: 31%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  /* padding-bottom: 3rem; */
+  box-shadow: 0px 0px 40px 0px rgba(0, 44, 122, 0.13);
+  row-gap: 20px;
+  position: relative;
+  padding-top: 3rem;
+}
+.DealershipCard img {
+  width: 50%;
+  top: -25%;
+  /* margin-top: -10%; */
+  position: absolute;
+}
+.DealershipCard h3 {
+  width: 70%;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+}
+.DealershipBtnDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+.DealershipBtnDiv span {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #60606b;
+}
+.DealershipBtn {
+  background-color: #1cbcff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  column-gap: 10px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 28, 56, 0.15);
+}
+.DealershipBtn i{
+    font-size: 1rem;
+}
+.DealershipReviewDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DealershipReviewDiv img {
+  width: 25%;
+}
+.DealershipReviewDiv p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+}
+
+/* <!-- UNIQUE SECTON --> */
+
+.UniqueCont {
+  width: 100%;
+  height: auto;
+  /* background-color: rebeccapurple; */
+  background: linear-gradient(to bottom, #e0ecfb, #f4f9fc, #f4f9fc, #f4f9fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.UniqueBox {
+  width: 80%;
+  height: 100%;
+  /* background-color: royalblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.Why {
+  width: 100%;
+  /* background-color: tomato; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Why div {
+  width: 50%;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.Why div h3 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: -0.800000011920929px;
+  text-align: left;
+  color: #1d2e3b;
+}
+.Why div p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d2e3b;
+}
+.Why div span {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d2e3b;
+}
+.WhyImage {
+  width: 50%;
+}
+.facebookadDiv {
+  width: 100%;
+  /* background-color: tan; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+.facebookadDiv h2 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: -0.800000011920929px;
+  text-align: center;
+  color: #1d2e3b;
+}
+.facebookadDiv p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+}
+.facebookad {
+  width: 30%;
+  border: none;
+}
+.facebookadDiv strong {
+  font-family: Caveat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d2e3b;
+}
+.facebookadDiv h3 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 38px;
+  letter-spacing: -0.800000011920929px;
+  text-align: center;
+  color: #1d2e3b;
+}
+.UniqueBox .DealershipBtnDiv .DealershipBtn{
+    column-gap: 20px;
+}
+
+/* <!-- AUTOMATION SECTON --> */
+
+.AutomationCont {
+  width: 100%;
+  height: auto;
+  /* background-color: rebeccapurple; */
+  background: linear-gradient(to bottom, #e0ecfb, #f4f9fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AutomationBox {
+  width: 80%;
+  height: 100%;
+  /* background-color: royalblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.automationMain {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: tomato; */
+  /* columns: 5rem; */
+  /* column-gap: 5rem;*/
+  column-gap: 2rem;
+}
+.automationImgDiv {
+  width: 60%;
+  height: auto;
+  /* background-color: rebeccapurple; */
+}
+.automationImgDiv img {
+  width: 100%;
+}
+.automationMainContent {
+  width: 50%;
+  /* background-color: wheat; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.automationMainHeading1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.800000011920929px;
+  text-align: center;
+  color: #1d2e3b;
+}
+.automationMainHeading2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.800000011920929px;
+  text-align: left;
+  color: #1d2e3b;
+}
+.automationMain div p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.automationMain div span {
+  text-decoration: underline;
+}
+.automationMain div strong {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.DynamicMain {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 44, 122, 0.13);
+  display: flex;
+  /* background-color: rebeccapurple; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 3rem 0 3rem 0;
+  column-gap: 2rem;
+}
+.DynamicImg {
+  width: 45%;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.DealershipLearnMore {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1cbcff;
+  text-decoration: none;
+  /* border-bottom: 2px solid #000; */
+}
+.DynamicTxt {
+  width: 45%;
+  /* background-color: olive; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.DynamicTxt span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1cbcff;
+}
+.DynamicTxt h2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.800000011920929px;
+  text-align: left;
+  color: #1d2e3b;
+}
+.DynamicTxt p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4d5256;
+}
+.DynamicTxt h3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1d2e3b;
+}
+.DynamicTxt ul li {
+  list-style: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4d5256;
+  display: flex;
+  column-gap: 30px;
+}
+.DynamicTxt ul li span{
+    font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1cbcff;
+}
+/* <!-- BRANDS SECTON --> */
+
+.BrandsMainCont {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, #e0ecfb, #f4f9fc);
+
+  /* background-color: rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.BrandsBox {
+  width: 80%;
+  height: 100%;
+  /* background-color: royalblue; */
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.BrandsBox h2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.800000011920929px;
+  text-align: center;
+  color: #1d2e3b;
+}
+.BrandContent {
+  width: 100%;
+  /* background-color: tomato; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+.BrandContent div {
+  width: 15%;
+  /* background-color: purple; */
+  display: flex;
+  flex-direction: row;
+}
+.BrandContent div img {
+  width: 100%;
+}
+
+/* <!-- FAQ SECTON --> */
+
+.faqCont {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faqBox {
+  width: 80%;
+  height: 100%;
+  /* background-color: royalblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.faqBox h2 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: -0.800000011920929px;
+  text-align: center;
+  color: #1d2e3b;
+}
+.FAQ {
+  width: 100%;
+  height: auto;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:hover {
+  background-color: #f4f9fc;
+  border-color: #f4f9fc;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+.accordion-button::after {
+  background-image: none;
+  content: "\2BC6";
+  font-family: "FontAwesome";
+  width: auto;
+  height: auto;
+}
+.accordion-button.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+.accordion-button {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.accordion-body {
+  text-align: left;
+  color: rgb(77, 82, 86);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 150%;
+  font-size: 1rem;
+  transition: all 0.3 ease;
+}
+.accordion-item {
+  border-bottom: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* <!-- FOOTER SECTON --> */
+.footerMain {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rebeccapurple; */
+  border-top: 1px solid #ebecef;
+}
+.footerBox {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: royalblue; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.footerBox div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerImg {
+  width: 80%;
+}
+.footerBox div ul li {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4d5256;
+}
+.footerBox div ul li a {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2f2f2f;
+}
